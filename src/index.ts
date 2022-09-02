@@ -64,7 +64,7 @@ const collectionDataUpdater = new CollectionDataUpdater(
    * events or timers.
    */
   [
-    new UpdateAllTokensEveryNSecondsRuntime(parseInt(config.FULL_REFRESH_DELAY)),
+    //new UpdateAllTokensEveryNSecondsRuntime(parseInt(config.FULL_REFRESH_DELAY)),
     new UpdateTokenOnMintRuntime(contract),
   ],
 );
